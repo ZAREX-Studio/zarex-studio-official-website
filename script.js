@@ -36,6 +36,12 @@ function initScrollReveal() {
         interval: 150
     });
 
+    sr.reveal('.reveal-form', {
+        delay: 0,
+        distance: '16px',
+        duration: 500
+    });
+
     // Custom reveal for specific sections
     sr.reveal('.service-card', {
         interval: 150
