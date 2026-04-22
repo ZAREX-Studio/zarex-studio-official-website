@@ -29,11 +29,17 @@
                     <a href="#projects">项目</a>
                     <a href="#contact">联系</a>
                 </div>
-                <div class="mobile-menu-btn">
+                <button
+                    class="mobile-menu-btn"
+                    type="button"
+                    aria-label="打开导航菜单"
+                    aria-expanded="false"
+                    aria-controls="mobile-nav"
+                >
                     <span></span>
                     <span></span>
                     <span></span>
-                </div>
+                </button>
             </nav>
         </div>
     </header>
@@ -132,7 +138,14 @@
             </div>
             <div class="project-gallery">
                 <div class="project-item reveal-element">
-                    <div class="project-image" style="background-image:url('https://images.unsplash.com/photo-1558346490-a72e53ae2d4f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=400')">
+                    <div class="project-image">
+                        <img
+                            src="https://images.unsplash.com/photo-1558346490-a72e53ae2d4f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=800"
+                            alt="智能客服平台项目展示图"
+                            width="800"
+                            height="600"
+                            loading="lazy"
+                        >
                         <div class="project-overlay">
                             <h3>智能客服平台</h3>
                             <p>基于NLP技术的新一代客户服务解决方案</p>
@@ -140,7 +153,14 @@
                     </div>
                 </div>
                 <div class="project-item reveal-element">
-                    <div class="project-image" style="background-image:url('https://images.unsplash.com/photo-1581287053822-fd7bf4f4bfec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=400')">
+                    <div class="project-image">
+                        <img
+                            src="https://images.unsplash.com/photo-1581287053822-fd7bf4f4bfec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=800"
+                            alt="数据分析平台项目展示图"
+                            width="800"
+                            height="600"
+                            loading="lazy"
+                        >
                         <div class="project-overlay">
                             <h3>数据分析平台</h3>
                             <p>企业级实时数据分析与可视化系统</p>
@@ -148,7 +168,14 @@
                     </div>
                 </div>
                 <div class="project-item reveal-element">
-                    <div class="project-image" style="background-image:url('https://images.unsplash.com/photo-1633412802994-5c058f151b66?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=400')">
+                    <div class="project-image">
+                        <img
+                            src="https://images.unsplash.com/photo-1633412802994-5c058f151b66?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=800"
+                            alt="智能家居控制系统项目展示图"
+                            width="800"
+                            height="600"
+                            loading="lazy"
+                        >
                         <div class="project-overlay">
                             <h3>智能家居控制系统</h3>
                             <p>集成AI的全屋智能家居解决方案</p>
@@ -173,7 +200,7 @@
                         </div>
                         <div class="contact-text">
                             <h3>电子邮件</h3>
-                            <p>contact@zarex.studio</p>
+                            <p><a href="mailto:contact@zarex.studio">contact@zarex.studio</a></p>
                         </div>
                     </div>
                     <div class="contact-item reveal-element">
@@ -186,16 +213,21 @@
                         </div>
                     </div>
                 </div>
-                <form class="contact-form reveal-element">
+                <form class="contact-form reveal-element" novalidate>
                     <div class="form-group">
-                        <input type="text" placeholder="您的姓名" required>
+                        <label for="contact-name">您的姓名</label>
+                        <input id="contact-name" name="name" type="text" placeholder="例如：张三" autocomplete="name" required>
                     </div>
                     <div class="form-group">
-                        <input type="email" placeholder="您的邮箱" required>
+                        <label for="contact-email">您的邮箱</label>
+                        <input id="contact-email" name="email" type="email" placeholder="例如：name@company.com" autocomplete="email" spellcheck="false" required>
                     </div>
                     <div class="form-group">
-                        <textarea placeholder="您的留言" rows="5" required></textarea>
+                        <label for="contact-message">您的留言</label>
+                        <textarea id="contact-message" name="message" placeholder="请简要描述您的需求…" rows="5" required></textarea>
                     </div>
+                    <p class="form-hint">提交后会打开默认邮件客户端，并将内容发送至 contact@zarex.studio。</p>
+                    <p class="form-status" role="status" aria-live="polite"></p>
                     <button type="submit" class="btn btn-primary">发送留言</button>
                 </form>
             </div>
@@ -217,7 +249,7 @@
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2023 ZAREX Studio (奇点智构). 保留所有权利.</p>
+                <p>&copy; 2026 ZAREX Studio (奇点智构). 保留所有权利.</p>
                 <p><a href="https://zarex.studio">zarex.studio</a></p>
             </div>
         </div>
