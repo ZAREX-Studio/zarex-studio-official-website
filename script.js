@@ -17,23 +17,23 @@ function initScrollReveal() {
 
     const sr = ScrollReveal({
         origin: 'bottom',
-        distance: '40px',
-        duration: 1000,
-        delay: 200,
+        distance: '28px',
+        duration: 620,
+        delay: 80,
         easing: 'cubic-bezier(0.5, 0, 0, 1)',
         reset: false
     });
 
     // Reveal text elements
     sr.reveal('.reveal-text', { 
-        delay: 200,
-        interval: 150
+        delay: 80,
+        interval: 70
     });
 
     // Reveal elements
     sr.reveal('.reveal-element', {
-        delay: 300,
-        interval: 150
+        delay: 100,
+        interval: 70
     });
 
     sr.reveal('.reveal-form', {
@@ -44,16 +44,16 @@ function initScrollReveal() {
 
     // Custom reveal for specific sections
     sr.reveal('.service-card', {
-        interval: 150
+        interval: 70
     });
 
     sr.reveal('.project-item', {
-        interval: 150,
+        interval: 70,
         scale: 0.95
     });
 
     sr.reveal('.contact-item', {
-        interval: 150
+        interval: 70
     });
 }
 
