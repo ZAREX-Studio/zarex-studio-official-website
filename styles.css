@@ -75,40 +75,6 @@ img {
     margin: 0 auto;
 }
 
-.cursor-dot,
-.cursor-outline {
-    position: fixed;
-    top: 0;
-    left: 0;
-    pointer-events: none;
-    z-index: 9999;
-    transform: translate(-50%, -50%);
-    display: none;
-}
-
-.cursor-dot {
-    width: 8px;
-    height: 8px;
-    background-color: var(--color-accent);
-    border-radius: 50%;
-    transition: opacity 0.15s ease;
-}
-
-.cursor-outline {
-    width: 40px;
-    height: 40px;
-    border: 1px solid rgba(37, 99, 235, 0.72);
-    border-radius: 999px;
-    transition: width 0.15s ease, height 0.15s ease, transform 0.15s ease;
-}
-
-@media (min-width: 992px) {
-    .cursor-dot,
-    .cursor-outline {
-        display: block;
-    }
-}
-
 header {
     position: fixed;
     top: 18px;

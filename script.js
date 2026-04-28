@@ -2,7 +2,6 @@
 document.addEventListener('DOMContentLoaded', function() {
     // Initialization
     initScrollReveal();
-    initCustomCursor();
     initMobileMenu();
     initScrollEvents();
     initCounters();
@@ -54,46 +53,6 @@ function initScrollReveal() {
 
     sr.reveal('.contact-item', {
         interval: 70
-    });
-}
-
-// Initialize custom cursor
-function initCustomCursor() {
-    const cursorDot = document.querySelector('.cursor-dot');
-    const cursorOutline = document.querySelector('.cursor-outline');
-    let cursorTimer = null;
-
-    if (!cursorDot || !cursorOutline || window.innerWidth < 992) return;
-
-    window.addEventListener('mousemove', function(e) {
-        // Update cursor dot position immediately
-        cursorDot.style.transform = `translate(${e.clientX}px, ${e.clientY}px)`;
-        
-        // Update cursor outline with slight delay for smoothness
-        if (cursorTimer) {
-            clearTimeout(cursorTimer);
-        }
-
-        cursorTimer = setTimeout(() => {
-            cursorOutline.style.transform = `translate(${e.clientX}px, ${e.clientY}px)`;
-        }, 80);
-    });
-
-    // Add hover effect to interactive elements
-    const interactiveElements = document.querySelectorAll('a, button, .service-card, .project-item, input, textarea');
-    
-    interactiveElements.forEach(el => {
-        el.addEventListener('mouseenter', () => {
-            cursorOutline.style.width = '60px';
-            cursorOutline.style.height = '60px';
-            cursorDot.style.opacity = '0.5';
-        });
-        
-        el.addEventListener('mouseleave', () => {
-            cursorOutline.style.width = '40px';
-            cursorOutline.style.height = '40px';
-            cursorDot.style.opacity = '1';
-        });
     });
 }
 
