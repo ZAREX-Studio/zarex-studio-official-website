@@ -10,7 +10,11 @@ const i18n = {
         },
         meta: {
             title: 'ZAREX Studio | 奇点智构 - AI、互联网与智能应用技术工作室',
-            description: 'ZAREX Studio (奇点智构) 是一个专注于AI、互联网与智能应用领域的技术工作室'
+            description: 'ZAREX Studio (奇点智构) 是一个专注于 AI 应用落地、互联网产品开发、数据平台和智能工具的技术工作室。',
+            socialTitle: 'ZAREX Studio | AI、互联网与智能应用技术工作室',
+            socialDescription: '面向团队和企业提供 AI 应用落地、互联网产品开发、数据平台和智能工具建设。',
+            imageAlt: 'ZAREX Studio 技术工作室分享预览图',
+            ogLocale: 'zh_CN'
         },
         brand: {
             subtitle: '奇点智构'
@@ -119,7 +123,11 @@ const i18n = {
         },
         meta: {
             title: 'ZAREX Studio | AI, Web, and Intelligent Application Studio',
-            description: 'ZAREX Studio is a technology studio focused on AI, web products, and intelligent applications.'
+            description: 'ZAREX Studio is a technology studio focused on AI implementation, web products, data platforms, and intelligent tools.',
+            socialTitle: 'ZAREX Studio | AI, Web, and Intelligent Application Studio',
+            socialDescription: 'AI implementation, web product development, data platforms, and intelligent tools for teams and businesses.',
+            imageAlt: 'ZAREX Studio technology studio social preview',
+            ogLocale: 'en_US'
         },
         brand: {
             subtitle: 'AI Innovation Studio'
@@ -305,6 +313,7 @@ function applyLanguage(language) {
     updateTranslatedAttribute('data-i18n-alt', 'alt');
     updateTranslatedAttribute('data-i18n-content', 'content');
     updateTranslatedAttribute('data-i18n-aria-label', 'aria-label');
+    updateOpenGraphLocale(translations.meta.ogLocale);
 
     document.querySelectorAll('[data-language-option]').forEach(button => {
         const isActive = button.dataset.languageOption === currentLanguage;
@@ -322,6 +331,14 @@ function updateTranslatedAttribute(dataAttribute, targetAttribute) {
             element.setAttribute(targetAttribute, value);
         }
     });
+}
+
+function updateOpenGraphLocale(locale) {
+    const localeMeta = document.querySelector('meta[property="og:locale"]');
+
+    if (localeMeta && locale) {
+        localeMeta.setAttribute('content', locale);
+    }
 }
 
 function initLanguageSwitcher() {

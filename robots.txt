@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+Disallow: /.git/
+Disallow: /wp-
+Disallow: /wp/
+Disallow: /admin/
+Disallow: /api/
+Disallow: /storage/
+Disallow: /*.php$
+
+Sitemap: https://zarex.studio/sitemap.xml

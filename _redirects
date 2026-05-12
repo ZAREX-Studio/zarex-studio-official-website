@@ -1,0 +1,7 @@
+/.git/* /404.html 404
+/wp-* /404.html 404
+/wp/* /404.html 404
+/admin/* /404.html 404
+/api/* /404.html 404
+/storage/* /404.html 404
+/*.php /404.html 404

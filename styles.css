@@ -46,6 +46,43 @@ body {
     overflow-x: hidden;
 }
 
+.not-found-page {
+    min-height: 100vh;
+}
+
+.not-found {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 96px 0;
+    text-align: center;
+}
+
+.not-found .container {
+    max-width: 720px;
+}
+
+.not-found-eyebrow {
+    margin-bottom: 14px;
+    color: var(--color-accent);
+    font-size: 0.95rem;
+    font-weight: 900;
+    letter-spacing: 0.14em;
+}
+
+.not-found h1 {
+    margin-bottom: 18px;
+    font-size: clamp(2.4rem, 7vw, 5.4rem);
+    line-height: 1;
+}
+
+.not-found p:not(.not-found-eyebrow) {
+    margin: 0 auto 30px;
+    max-width: 560px;
+    color: var(--color-ink-soft);
+    font-size: 1.05rem;
+}
+
 button,
 input,
 textarea {
