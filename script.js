@@ -10,7 +10,7 @@ const i18n = {
         },
         meta: {
             title: 'ZAREX Studio | 奇点智构 - AI、互联网与智能应用技术工作室',
-            description: 'ZAREX Studio (奇点智构) 是一个专注于 AI 应用落地、互联网产品开发、数据平台和智能工具的技术工作室。',
+            description: 'ZAREX Studio（奇点智构）为团队和企业提供 AI 应用落地、互联网产品开发、数据平台与智能工具建设服务，覆盖需求梳理、原型设计、工程实现、上线部署和持续迭代。我们把人工智能、数据分析、自动化与现代 Web 技术结合，帮助业务把新技术转化为稳定可用、可持续增长的数字产品与业务能力，并持续优化。',
             socialTitle: 'ZAREX Studio | AI、互联网与智能应用技术工作室',
             socialDescription: '面向团队和企业提供 AI 应用落地、互联网产品开发、数据平台和智能工具建设。',
             imageAlt: 'ZAREX Studio 技术工作室分享预览图',
@@ -123,7 +123,7 @@ const i18n = {
         },
         meta: {
             title: 'ZAREX Studio | AI, Web, and Intelligent Application Studio',
-            description: 'ZAREX Studio is a technology studio focused on AI implementation, web products, data platforms, and intelligent tools.',
+            description: 'ZAREX Studio builds AI apps, web products, data platforms, and intelligent tools for teams, from strategy and prototypes to engineering, launch, and iteration.',
             socialTitle: 'ZAREX Studio | AI, Web, and Intelligent Application Studio',
             socialDescription: 'AI implementation, web product development, data platforms, and intelligent tools for teams and businesses.',
             imageAlt: 'ZAREX Studio technology studio social preview',
