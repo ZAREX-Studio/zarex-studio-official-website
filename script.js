@@ -1,5 +1,9 @@
 const LANGUAGE_STORAGE_KEY = 'zarex-studio-language';
-const DEFAULT_LANGUAGE = 'en';
+const DEFAULT_LANGUAGE = 'zh';
+const LANGUAGE_URLS = {
+    zh: '/zh/',
+    en: '/en/'
+};
 
 const i18n = {
     zh: {
@@ -52,6 +56,7 @@ const i18n = {
         },
         services: {
             heading: '我们的服务',
+            learnMore: '了解更多',
             ai: {
                 title: '人工智能解决方案',
                 description: '从机器学习算法到自然语言处理，我们提供全方位的AI解决方案。'
@@ -165,6 +170,7 @@ const i18n = {
         },
         services: {
             heading: 'Our Services',
+            learnMore: 'Learn more',
             ai: {
                 title: 'AI Solutions',
                 description: 'From machine learning models to natural language processing, we deliver end-to-end AI solutions.'
@@ -247,7 +253,19 @@ function getInitialLanguage() {
     const urlLanguage = normalizeLanguage(new URLSearchParams(window.location.search).get('lang'));
     if (urlLanguage) {
         storeLanguage(urlLanguage);
+        redirectToLanguagePage(urlLanguage);
         return urlLanguage;
+    }
+
+    const pathLanguage = getPathLanguage();
+    if (pathLanguage) {
+        storeLanguage(pathLanguage);
+        return pathLanguage;
+    }
+
+    const documentLanguage = normalizeLanguage(document.documentElement.dataset.language || document.documentElement.lang);
+    if (documentLanguage) {
+        return documentLanguage;
     }
 
     const savedLanguage = normalizeLanguage(readStoredLanguage());
@@ -264,6 +282,11 @@ function getInitialLanguage() {
         .find(Boolean);
 
     return preferredLanguage || DEFAULT_LANGUAGE;
+}
+
+function getPathLanguage() {
+    const firstSegment = window.location.pathname.split('/').filter(Boolean)[0];
+    return normalizeLanguage(firstSegment);
 }
 
 function normalizeLanguage(language) {
@@ -297,22 +320,29 @@ function getTranslation(key, language = currentLanguage) {
 function applyLanguage(language) {
     currentLanguage = normalizeLanguage(language) || DEFAULT_LANGUAGE;
     const translations = i18n[currentLanguage];
+    const hasPageTranslations = Boolean(document.querySelector(
+        '[data-i18n], [data-i18n-placeholder], [data-i18n-alt], [data-i18n-content], [data-i18n-aria-label]'
+    ));
 
     document.documentElement.lang = translations.language.htmlLang;
     document.documentElement.dataset.language = currentLanguage;
-    document.title = translations.meta.title;
 
-    document.querySelectorAll('[data-i18n]').forEach(element => {
-        const value = getTranslation(element.dataset.i18n);
-        if (typeof value === 'string') {
-            element.textContent = value;
-        }
-    });
+    if (hasPageTranslations) {
+        document.title = translations.meta.title;
 
-    updateTranslatedAttribute('data-i18n-placeholder', 'placeholder');
-    updateTranslatedAttribute('data-i18n-alt', 'alt');
-    updateTranslatedAttribute('data-i18n-content', 'content');
-    updateTranslatedAttribute('data-i18n-aria-label', 'aria-label');
+        document.querySelectorAll('[data-i18n]').forEach(element => {
+            const value = getTranslation(element.dataset.i18n);
+            if (typeof value === 'string') {
+                element.textContent = value;
+            }
+        });
+
+        updateTranslatedAttribute('data-i18n-placeholder', 'placeholder');
+        updateTranslatedAttribute('data-i18n-alt', 'alt');
+        updateTranslatedAttribute('data-i18n-content', 'content');
+        updateTranslatedAttribute('data-i18n-aria-label', 'aria-label');
+    }
+
     updateOpenGraphLocale(translations.meta.ogLocale);
 
     document.querySelectorAll('[data-language-option]').forEach(button => {
@@ -350,10 +380,29 @@ function initLanguageSwitcher() {
             }
 
             storeLanguage(language);
-            applyLanguage(language);
-            syncMobileNav();
+            redirectToLanguagePage(language, button.dataset.languageUrl);
         });
     });
+}
+
+function redirectToLanguagePage(language, explicitPath) {
+    const targetPath = explicitPath || LANGUAGE_URLS[language];
+    if (!targetPath) {
+        applyLanguage(language);
+        syncMobileNav();
+        return;
+    }
+
+    const targetUrl = new URL(targetPath, window.location.origin);
+    targetUrl.hash = window.location.hash;
+
+    if (window.location.pathname !== targetUrl.pathname || window.location.search) {
+        window.location.href = targetUrl.toString();
+        return;
+    }
+
+    applyLanguage(language);
+    syncMobileNav();
 }
 
 function storeLanguage(language) {
