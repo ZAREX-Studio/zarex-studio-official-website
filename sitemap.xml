@@ -3,93 +3,92 @@
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
     <url>
         <loc>https://zarex.studio/</loc>
-        <lastmod>2026-05-13</lastmod>
+        <lastmod>2026-05-14</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
-        <xhtml:link rel="alternate" hreflang="zh-CN" href="https://zarex.studio/zh/" />
-        <xhtml:link rel="alternate" hreflang="en" href="https://zarex.studio/en/" />
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://zarex.studio/" />
-    </url>
-    <url>
-        <loc>https://zarex.studio/zh/</loc>
-        <lastmod>2026-05-13</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.9</priority>
-        <xhtml:link rel="alternate" hreflang="zh-CN" href="https://zarex.studio/zh/" />
+        <xhtml:link rel="alternate" hreflang="zh-CN" href="https://zarex.studio/" />
         <xhtml:link rel="alternate" hreflang="en" href="https://zarex.studio/en/" />
         <xhtml:link rel="alternate" hreflang="x-default" href="https://zarex.studio/" />
     </url>
     <url>
         <loc>https://zarex.studio/en/</loc>
-        <lastmod>2026-05-13</lastmod>
+        <lastmod>2026-05-14</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
-        <xhtml:link rel="alternate" hreflang="zh-CN" href="https://zarex.studio/zh/" />
+        <xhtml:link rel="alternate" hreflang="zh-CN" href="https://zarex.studio/" />
         <xhtml:link rel="alternate" hreflang="en" href="https://zarex.studio/en/" />
         <xhtml:link rel="alternate" hreflang="x-default" href="https://zarex.studio/" />
     </url>
     <url>
         <loc>https://zarex.studio/zh/services/ai-solutions/</loc>
-        <lastmod>2026-05-13</lastmod>
+        <lastmod>2026-05-14</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
         <xhtml:link rel="alternate" hreflang="zh-CN" href="https://zarex.studio/zh/services/ai-solutions/" />
         <xhtml:link rel="alternate" hreflang="en" href="https://zarex.studio/en/services/ai-solutions/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://zarex.studio/zh/services/ai-solutions/" />
     </url>
     <url>
         <loc>https://zarex.studio/en/services/ai-solutions/</loc>
-        <lastmod>2026-05-13</lastmod>
+        <lastmod>2026-05-14</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
         <xhtml:link rel="alternate" hreflang="zh-CN" href="https://zarex.studio/zh/services/ai-solutions/" />
         <xhtml:link rel="alternate" hreflang="en" href="https://zarex.studio/en/services/ai-solutions/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://zarex.studio/zh/services/ai-solutions/" />
     </url>
     <url>
         <loc>https://zarex.studio/zh/services/web-development/</loc>
-        <lastmod>2026-05-13</lastmod>
+        <lastmod>2026-05-14</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
         <xhtml:link rel="alternate" hreflang="zh-CN" href="https://zarex.studio/zh/services/web-development/" />
         <xhtml:link rel="alternate" hreflang="en" href="https://zarex.studio/en/services/web-development/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://zarex.studio/zh/services/web-development/" />
     </url>
     <url>
         <loc>https://zarex.studio/en/services/web-development/</loc>
-        <lastmod>2026-05-13</lastmod>
+        <lastmod>2026-05-14</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
         <xhtml:link rel="alternate" hreflang="zh-CN" href="https://zarex.studio/zh/services/web-development/" />
         <xhtml:link rel="alternate" hreflang="en" href="https://zarex.studio/en/services/web-development/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://zarex.studio/zh/services/web-development/" />
     </url>
     <url>
         <loc>https://zarex.studio/zh/services/intelligent-apps/</loc>
-        <lastmod>2026-05-13</lastmod>
+        <lastmod>2026-05-14</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
         <xhtml:link rel="alternate" hreflang="zh-CN" href="https://zarex.studio/zh/services/intelligent-apps/" />
         <xhtml:link rel="alternate" hreflang="en" href="https://zarex.studio/en/services/intelligent-apps/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://zarex.studio/zh/services/intelligent-apps/" />
     </url>
     <url>
         <loc>https://zarex.studio/en/services/intelligent-apps/</loc>
-        <lastmod>2026-05-13</lastmod>
+        <lastmod>2026-05-14</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
         <xhtml:link rel="alternate" hreflang="zh-CN" href="https://zarex.studio/zh/services/intelligent-apps/" />
         <xhtml:link rel="alternate" hreflang="en" href="https://zarex.studio/en/services/intelligent-apps/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://zarex.studio/zh/services/intelligent-apps/" />
     </url>
     <url>
         <loc>https://zarex.studio/zh/services/data-platforms/</loc>
-        <lastmod>2026-05-13</lastmod>
+        <lastmod>2026-05-14</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
         <xhtml:link rel="alternate" hreflang="zh-CN" href="https://zarex.studio/zh/services/data-platforms/" />
         <xhtml:link rel="alternate" hreflang="en" href="https://zarex.studio/en/services/data-platforms/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://zarex.studio/zh/services/data-platforms/" />
     </url>
     <url>
         <loc>https://zarex.studio/en/services/data-platforms/</loc>
-        <lastmod>2026-05-13</lastmod>
+        <lastmod>2026-05-14</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
         <xhtml:link rel="alternate" hreflang="zh-CN" href="https://zarex.studio/zh/services/data-platforms/" />
         <xhtml:link rel="alternate" hreflang="en" href="https://zarex.studio/en/services/data-platforms/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://zarex.studio/zh/services/data-platforms/" />
     </url>
 </urlset>

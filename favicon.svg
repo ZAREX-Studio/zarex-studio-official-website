@@ -1,17 +1,18 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
-  <!-- Background -->
-  <rect width="100" height="100" rx="20" fill="#4d4dff"/>
-  
-  <!-- Z Letter -->
-  <path d="M30 30H70L30 70H70" stroke="#c0c0c0" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
-  
-  <!-- Tech Circuit Elements -->
-  <circle cx="30" cy="30" r="4" fill="#c0c0c0"/>
-  <circle cx="70" cy="30" r="4" fill="#c0c0c0"/>
-  <circle cx="30" cy="70" r="4" fill="#c0c0c0"/>
-  <circle cx="70" cy="70" r="4" fill="#c0c0c0"/>
-  
-  <!-- Abstract Tech Lines -->
-  <line x1="20" y1="50" x2="80" y2="50" stroke="#c0c0c0" stroke-width="2" stroke-dasharray="2 4"/>
-  <line x1="50" y1="20" x2="50" y2="80" stroke="#c0c0c0" stroke-width="2" stroke-dasharray="2 4"/>
-</svg> 
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-labelledby="title desc">
+  <title id="title">ZAREX Studio</title>
+  <desc id="desc">A Z-shaped origin trace for ZAREX Studio.</desc>
+  <defs>
+    <linearGradient id="trace" x1="18" x2="82" y1="28" y2="72" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#19d9ff"/>
+      <stop offset="0.58" stop-color="#2563eb"/>
+      <stop offset="1" stop-color="#ff4d2e"/>
+    </linearGradient>
+  </defs>
+  <rect width="100" height="100" rx="18" fill="#080a0d"/>
+  <g stroke="#f5f7fa" stroke-opacity="0.11" stroke-width="1">
+    <path d="M14 28h72M14 50h72M14 72h72M28 14v72M50 14v72M72 14v72"/>
+  </g>
+  <path d="M25 28h50L25 72h50" fill="none" stroke="url(#trace)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="25" cy="28" r="5.5" fill="#19d9ff"/>
+  <circle cx="75" cy="72" r="6.5" fill="#ff4d2e"/>
+</svg>
