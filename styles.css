@@ -1321,6 +1321,10 @@ footer {
         font-size: clamp(1.35rem, 6.8vw, 1.95rem);
     }
 
+    .hero h2 span {
+        display: block;
+    }
+
     .hero p {
         font-size: 1.05rem;
     }

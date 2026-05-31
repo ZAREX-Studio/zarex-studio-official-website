@@ -14,10 +14,10 @@ const i18n = {
             name: '中文'
         },
         meta: {
-            title: 'ZAREX Studio 奇点智构 | AI 应用、官网与业务工具开发',
-            description: 'ZAREX Studio（奇点智构）帮助企业把官网、管理工具、AI 助手和数据看板做成可上线的线上工具，覆盖需求梳理、设计开发、部署和持续迭代。',
-            socialTitle: 'ZAREX Studio 奇点智构 | AI 应用、官网与业务工具开发',
-            socialDescription: '把官网、管理工具、AI 助手和数据看板做成可上线、可持续迭代的线上工具。',
+            title: 'ZAREX Studio 奇点智构 | 企业 AI 产品矩阵与智能体解决方案',
+            description: 'ZAREX Studio（奇点智构）构建企业 AI 产品矩阵，覆盖知识库与客服智能体、行业视觉作业平台、屏幕理解引擎和本地语音输入工具。',
+            socialTitle: 'ZAREX Studio 奇点智构 | 企业 AI 产品矩阵',
+            socialDescription: '从知识库、智能体、视觉作业到本地效率工具，构建可部署、可运营、可持续迭代的企业 AI 产品体系。',
             imageAlt: 'ZAREX Studio 奇点智构官网预览图',
             ogLocale: 'zh_CN'
         },
@@ -25,9 +25,9 @@ const i18n = {
             subtitle: '奇点智构'
         },
         nav: {
-            about: '关于我们',
-            services: '服务',
-            projects: '能做什么',
+            about: '方向',
+            services: '平台能力',
+            projects: '产品矩阵',
             contact: '联系'
         },
         mobile: {
@@ -35,119 +35,119 @@ const i18n = {
             menuClose: '关闭导航菜单'
         },
         hero: {
-            headingLead: '把你的',
-            headingAccent: '业务想法',
-            headingTail: '做成能用的线上工具',
-            description: '不需要先懂技术。你告诉我们想解决什么问题，我们帮你把官网、管理工具、AI 助手或数据看板做出来、上线并持续改好。',
-            primaryCta: '联系我们',
-            secondaryCta: '看看能做什么',
+            headingLead: '企业 AI 产品矩阵，',
+            headingAccent: '从知识到行动',
+            headingTail: '',
+            description: '我们把知识库、智能体、视觉作业和本地效率工具做成可部署、可运营、可持续迭代的产品体系，帮助企业从第一个场景走向可复制的 AI 应用能力。',
+            primaryCta: '预约产品沟通',
+            secondaryCta: '查看产品矩阵',
             notesLabel: '核心能力',
-            noteAi: '更多客户咨询',
-            noteData: '少做重复工作',
-            noteTools: '看懂经营数据',
-            valueLabel: '你会得到什么',
-            valueIntro: '少讲概念，直接看结果：更好获客、更省时间、更容易管理。',
-            valueLeadTitle: '让客户更愿意咨询',
-            valueLeadDescription: '把官网和服务介绍讲清楚，让访客知道你能解决什么、下一步该联系谁。',
-            valueEfficiencyTitle: '把重复工作交给工具',
-            valueEfficiencyDescription: '把报价、登记、通知、整理资料等反复做的事，做成可复用的线上流程。',
-            valueClarityTitle: '重要数据一眼看懂',
-            valueClarityDescription: '把订单、客户和运营数据整理成看板，方便你知道哪里做得好、哪里要调整。',
-            valueAssetTitle: '做完不是一次性项目',
-            valueAssetDescription: '上线后还能继续改、继续加功能，让工具跟着业务一起成长。'
+            noteAi: '企业知识智能体',
+            noteData: '行业视觉作业',
+            noteTools: '本地效率工具',
+            valueLabel: '产品主线',
+            valueIntro: '先聚焦可销售样板，再沉淀成可复用的平台能力。',
+            valueLeadTitle: 'Knowledge Agent',
+            valueLeadDescription: '面向客服、销售和内部运营的企业知识库与问答智能体。',
+            valueEfficiencyTitle: 'Vision Ops',
+            valueEfficiencyDescription: '面向 OCR、自动标注和模型验证的行业 AI 作业平台。',
+            valueClarityTitle: 'ScreenLens',
+            valueClarityDescription: '为 RPA 和 GUI Agent 提供结构化屏幕理解与目标定位。',
+            valueAssetTitle: 'Vox / 声笔',
+            valueAssetDescription: '面向个人和团队的本地隐私语音输入与文本增强工具。'
         },
         about: {
-            heading: '关于我们',
-            paragraphOne: 'ZAREX Studio（奇点智构）是一个由充满激情的技术专家组成的团队，致力于在AI、互联网与智能应用领域的前沿探索。',
-            paragraphTwo: '我们相信技术可以改变世界，并且致力于将最新的技术转化为实用的解决方案。',
-            paragraphThree: '无论是人工智能、大数据分析还是智能应用程序，我们都以创新思维和精湛技术为客户创造价值。',
-            statExperience: '年技术经验',
-            statProjects: '类常见需求',
-            statExperts: '技术专家'
+            heading: '我们在构建什么',
+            paragraphOne: 'ZAREX Studio（奇点智构）不是只做一次性项目的外包团队。我们正在围绕企业 AI 应用构建一套可复制的产品矩阵。',
+            paragraphTwo: '核心方向是把企业知识、智能体编排、视觉作业流程和本地 AI 工具连接起来，让 AI 从演示能力变成可审核、可部署、可运营的系统。',
+            paragraphThree: '我们优先选择真实业务场景：客服知识问答、OCR 与标注作业、GUI 自动化、语音输入和内部效率工具。',
+            statExperience: '个 AI 应用底座',
+            statProjects: '条产品线',
+            statExperts: '天样板冲刺'
         },
         services: {
-            heading: '我们的服务',
-            learnMore: '了解更多',
+            heading: '平台能力',
+            learnMore: '预约沟通',
             ai: {
-                title: '人工智能解决方案',
-                description: '从机器学习算法到自然语言处理，我们提供全方位的AI解决方案。'
+                title: '知识引擎',
+                description: '支持文档、FAQ、商品资料和业务规则的导入、审核、检索、引用溯源与反馈闭环。'
             },
             web: {
-                title: '互联网应用开发',
-                description: '从网站到复杂的网络应用，我们使用最新技术创建高性能的数字体验。'
+                title: '智能体编排',
+                description: '将检索、工具调用、回答生成、渠道接入和运行轨迹组织成可配置、可验证的流程。'
             },
             smart: {
-                title: '智能应用开发',
-                description: '将AI与实用功能相结合，创建能真正改善用户生活的智能应用。'
+                title: '视觉作业平台',
+                description: '覆盖 OCR、自动标注、人工复核、模型验证和版本发布，让模型结果进入生产流程。'
             },
             data: {
-                title: '数据分析与可视化',
-                description: '从复杂数据中提取洞见，通过直观的可视化帮助您做出明智决策。'
+                title: '本地 AI 工具',
+                description: '面向语音输入、屏幕理解和桌面自动化，优先支持本地运行、隐私保护和低延迟体验。'
             }
         },
         projects: {
-            heading: '适合交给我们的需求',
-            intro: '如果你有一个业务想法、一个反复手工处理的流程，或一堆看不清的数据，可以先从这些具体需求开始。',
-            goodFit: '适合交给我们',
-            inputLabel: '常见输入',
-            outputLabel: '可交付',
-            discuss: '讨论这个需求',
+            heading: '产品矩阵',
+            intro: '我们用一个核心底座支撑多条产品线：先做可销售样板，再把共性能力沉淀为平台。',
+            goodFit: '产品线',
+            inputLabel: '适用场景',
+            outputLabel: '交付形态',
+            discuss: '讨论这条产品线',
             website: {
-                title: '官网与服务展示',
-                description: '把公司介绍、服务内容、案例材料和联系方式整理成清晰可信的官网或落地页。',
-                input: '公司介绍、服务资料、图片、联系方式',
-                output: '官网、落地页、咨询表单、上线部署'
+                title: 'Zarex Knowledge Agent',
+                description: '企业知识库与客服智能体，把资料、FAQ、商品知识和业务规则变成可追溯的回答能力。',
+                input: '客服问答、售后支持、销售答疑、内部知识查询',
+                output: '知识运营后台、问答助手、质检反馈、客服渠道接入'
             },
             workflow: {
-                title: '管理工具与业务流程',
-                description: '把报价、登记、审批、通知、客户跟进等重复工作做成线上流程。',
-                input: '表格、流程说明、人员角色、通知规则',
-                output: '录入后台、权限、提醒、查询和统计'
+                title: 'Zarex Vision Ops',
+                description: '行业视觉作业平台，围绕 OCR、自动标注、人工复核和模型验证形成生产闭环。',
+                input: '制造质检、票据识别、图片标注、模型上线前验证',
+                output: '标注工作台、OCR 验证、审核发布、报告导出'
             },
             assistant: {
-                title: 'AI 助手与知识库问答',
-                description: '把文档、产品资料、FAQ 或业务规则接入 AI，做成客服、销售、运营或内部助手。',
-                input: '文档、FAQ、产品资料、常见问题',
-                output: '问答助手、资料检索、工作流入口'
+                title: 'ScreenLens',
+                description: '自动化屏幕理解引擎，把截图转换成结构化 UI 状态，帮助 RPA 和 GUI Agent 找到目标。',
+                input: '桌面自动化、RPA 流程、远程运维、GUI Agent',
+                output: '屏幕分析 API、目标查找、等待条件、样本评测'
             },
             dashboard: {
-                title: '数据看板与经营分析',
-                description: '把订单、客户、销售、运营数据汇总成看板，让关键指标更容易看懂。',
-                input: '表格、订单记录、客户数据、运营报表',
-                output: '指标看板、筛选查询、导出和定期报表'
+                title: 'Vox / 声笔',
+                description: '本地隐私优先的语音输入工具，让长文本、技术口述和多语言输入更自然地进入工作流。',
+                input: '个人效率、开发者口述、客服记录、会议纪要',
+                output: 'macOS 语音输入、热词保留、本地 ASR、文本纠错'
             }
         },
         contact: {
-            heading: '说说你想做什么',
-            intro: '不用准备完整方案。留下一个联系方式，我们会根据你的想法判断下一步怎么做。',
+            heading: '预约产品矩阵沟通',
+            intro: '如果你正在评估企业知识智能体、行业视觉作业平台，或希望从一个可演示样板开始，留下联系方式即可。',
             emailLabel: '直接发邮件',
             copyEmail: '复制邮箱',
             copySuccess: '邮箱已复制。',
             copyFallback: '无法自动复制，请手动复制 contact@zarex.studio。',
             responseLabel: '我们会怎么对接',
-            responseValue: '收到信息后，我们会先确认目标、预算范围和最小可上线版本。',
-            formTitle: '留下联系方式',
-            formIntro: '只填联系方式也可以；如果方便，可以顺手写一句想解决的问题。',
+            responseValue: '收到信息后，我们会先确认目标场景、现有资料、部署边界和最小可演示版本。',
+            formTitle: '留下一个切入点',
+            formIntro: '只填联系方式也可以；如果方便，可以写一句你最想验证的 AI 场景。',
             nameLabel: '怎么称呼你（选填）',
             namePlaceholder: '例如：张三 / Ray',
             contactInputLabel: '联系方式',
             contactPlaceholder: '邮箱、微信或电话都可以',
-            messageLabel: '想解决的问题（选填）',
-            messagePlaceholder: '例如：想做一个官网、把表格流程搬到线上、做一个 AI 问答助手…',
+            messageLabel: '想验证的场景（选填）',
+            messagePlaceholder: '例如：客服知识问答、OCR 模型验证、自动标注、屏幕自动化、语音输入…',
             formHint: '这是静态页面：点击后会打开你的邮件客户端，并自动填好要发送给我们的内容。',
             submit: '生成邮件',
             validationMissing: '请至少填写一个联系方式，方便我们联系您。',
             openingClient: '正在打开邮件客户端…',
             generatingEmail: '已生成邮件内容，请在邮件客户端中确认发送。',
             mailtoFallback: '如果邮件客户端没有自动打开，可以复制邮箱 contact@zarex.studio 直接发送。',
-            mailSubject: '官网需求咨询',
+            mailSubject: 'ZAREX 产品矩阵咨询',
             mailBodyName: '称呼',
             mailBodyContact: '联系方式',
-            mailBodyMessage: '想解决的问题',
+            mailBodyMessage: '想验证的场景',
             mailBodyEmpty: '（暂未填写）'
         },
         footer: {
-            tagline: '从技术原点出发，构建可用系统',
+            tagline: '从真实场景出发，构建可运营的 AI 产品',
             copyright: '© 2026 ZAREX Studio (奇点智构). 保留所有权利.'
         }
     },
@@ -158,10 +158,10 @@ const i18n = {
             name: 'English'
         },
         meta: {
-            title: 'ZAREX Studio | AI Apps, Websites, and Business Tools',
-            description: 'ZAREX Studio helps teams build websites, internal tools, AI assistants, and dashboards from planning to deployment and ongoing iteration.',
-            socialTitle: 'ZAREX Studio | AI Apps, Websites, and Business Tools',
-            socialDescription: 'Launch-ready websites, internal tools, AI assistants, and dashboards for teams and businesses.',
+            title: 'ZAREX Studio | Enterprise AI Product Matrix and Agent Solutions',
+            description: 'ZAREX Studio builds an enterprise AI product matrix across knowledge agents, visual AI operations, screen understanding, and local voice input tools.',
+            socialTitle: 'ZAREX Studio | Enterprise AI Product Matrix',
+            socialDescription: 'A deployable and operable AI product system spanning knowledge agents, visual operations, screen understanding, and local productivity tools.',
             imageAlt: 'ZAREX Studio website social preview',
             ogLocale: 'en_US'
         },
@@ -169,9 +169,9 @@ const i18n = {
             subtitle: 'AI Innovation Studio'
         },
         nav: {
-            about: 'About',
-            services: 'Services',
-            projects: 'What We Build',
+            about: 'Direction',
+            services: 'Capabilities',
+            projects: 'Products',
             contact: 'Contact'
         },
         mobile: {
@@ -179,119 +179,119 @@ const i18n = {
             menuClose: 'Close navigation menu'
         },
         hero: {
-            headingLead: 'Turn your ',
-            headingAccent: 'idea',
-            headingTail: ' into a tool people can use',
-            description: 'You do not need to understand the technology first. Tell us the problem, and we help build the website, internal tool, AI assistant, or dashboard that solves it.',
-            primaryCta: 'Contact Us',
-            secondaryCta: 'See What We Build',
+            headingLead: 'Enterprise AI product matrix, ',
+            headingAccent: 'from knowledge to action',
+            headingTail: '',
+            description: 'We turn knowledge bases, agents, visual operations, and local productivity tools into deployable, operable, continuously improving AI products.',
+            primaryCta: 'Book a Product Call',
+            secondaryCta: 'View Product Matrix',
             notesLabel: 'Core capabilities',
-            noteAi: 'More customer inquiries',
-            noteData: 'Less repeat work',
-            noteTools: 'Clearer business numbers',
-            valueLabel: 'What you get',
-            valueIntro: 'Less jargon, clearer outcomes: more inquiries, less busywork, and easier management.',
-            valueLeadTitle: 'More people ask about your service',
-            valueLeadDescription: 'Make your website and offer easier to understand, so visitors know what you solve and how to contact you.',
-            valueEfficiencyTitle: 'Less repeat work for your team',
-            valueEfficiencyDescription: 'Turn quotes, sign-ups, notices, and document sorting into simple online workflows.',
-            valueClarityTitle: 'See the important numbers',
-            valueClarityDescription: 'Put orders, customers, and daily operation data into clear dashboards so you know what needs attention.',
-            valueAssetTitle: 'A tool that can keep growing',
-            valueAssetDescription: 'After launch, it can keep changing and adding features as your business grows.'
+            noteAi: 'Enterprise knowledge agents',
+            noteData: 'Visual AI operations',
+            noteTools: 'Local productivity tools',
+            valueLabel: 'Product lines',
+            valueIntro: 'We start with saleable pilots, then turn shared capabilities into a reusable platform.',
+            valueLeadTitle: 'Knowledge Agent',
+            valueLeadDescription: 'Enterprise knowledge and support agents for service, sales, and internal operations.',
+            valueEfficiencyTitle: 'Vision Ops',
+            valueEfficiencyDescription: 'OCR, auto-annotation, model validation, and human review for industry workflows.',
+            valueClarityTitle: 'ScreenLens',
+            valueClarityDescription: 'Structured screen understanding and target location for RPA and GUI agents.',
+            valueAssetTitle: 'Vox / VoiceBar',
+            valueAssetDescription: 'Local-first voice input and text enhancement for individuals and teams.'
         },
         about: {
-            heading: 'About Us',
-            paragraphOne: 'ZAREX Studio is a team of passionate technologists exploring the frontier of AI, web products, and intelligent applications.',
-            paragraphTwo: 'We believe technology can change the world, and we turn emerging ideas into practical, reliable solutions.',
-            paragraphThree: 'From artificial intelligence and data analytics to intelligent software, we create value through clear thinking and strong engineering.',
-            statExperience: 'Years of Experience',
-            statProjects: 'Use Case Areas',
-            statExperts: 'Technical Experts'
+            heading: 'What We Are Building',
+            paragraphOne: 'ZAREX Studio is not only a custom development team. We are building a repeatable enterprise AI product matrix around real business scenarios.',
+            paragraphTwo: 'The core is to connect enterprise knowledge, agent orchestration, visual operation workflows, and local AI tools into systems that can be audited, deployed, and operated.',
+            paragraphThree: 'We focus on practical entry points: customer support Q&A, OCR and annotation work, GUI automation, voice input, and internal productivity tools.',
+            statExperience: 'AI application core',
+            statProjects: 'Product lines',
+            statExperts: 'Day pilot sprint'
         },
         services: {
-            heading: 'Our Services',
-            learnMore: 'Learn more',
+            heading: 'Platform Capabilities',
+            learnMore: 'Book a call',
             ai: {
-                title: 'AI Solutions',
-                description: 'From machine learning models to natural language processing, we deliver end-to-end AI solutions.'
+                title: 'Knowledge Engine',
+                description: 'Ingest, review, retrieve, cite, and improve documents, FAQs, product knowledge, and business rules.'
             },
             web: {
-                title: 'Web Application Development',
-                description: 'From websites to complex web platforms, we build high-performance digital experiences with modern technology.'
+                title: 'Agent Orchestration',
+                description: 'Configure retrieval, tool calls, answer generation, channel integrations, and runtime traces as verifiable flows.'
             },
             smart: {
-                title: 'Intelligent App Development',
-                description: 'We combine AI with practical product features to create smart applications that improve everyday workflows.'
+                title: 'Visual AI Operations',
+                description: 'Move OCR, auto-annotation, human review, model validation, and version release into production workflows.'
             },
             data: {
-                title: 'Data Analytics and Visualization',
-                description: 'We extract insight from complex data and present it clearly so teams can make better decisions.'
+                title: 'Local AI Tools',
+                description: 'Voice input, screen understanding, and desktop automation with local-first, privacy-aware, low-latency experiences.'
             }
         },
         projects: {
-            heading: 'Work You Can Bring To Us',
-            intro: 'If you have a business idea, a repetitive workflow, or messy data that is hard to read, these are good starting points.',
-            goodFit: 'Good fit',
-            inputLabel: 'Common input',
-            outputLabel: 'Possible output',
-            discuss: 'Discuss this need',
+            heading: 'Product Matrix',
+            intro: 'One application core supports multiple product lines. We start with a focused pilot, then turn shared patterns into platform capabilities.',
+            goodFit: 'Product line',
+            inputLabel: 'Best for',
+            outputLabel: 'Deliverables',
+            discuss: 'Discuss this product line',
             website: {
-                title: 'Website and Service Pages',
-                description: 'Turn company info, service details, proof materials, and contact paths into a clear website or landing page.',
-                input: 'Company info, service notes, images, contact details',
-                output: 'Website, landing page, inquiry form, launch setup'
+                title: 'Zarex Knowledge Agent',
+                description: 'Enterprise knowledge bases and support agents that turn documents, FAQs, product knowledge, and rules into traceable answers.',
+                input: 'Customer support, after-sales service, sales Q&A, internal knowledge search',
+                output: 'Knowledge console, Q&A assistant, quality feedback, channel integration'
             },
             workflow: {
-                title: 'Internal Tools and Workflows',
-                description: 'Turn quotes, registrations, approvals, notifications, and customer follow-ups into simple online workflows.',
-                input: 'Spreadsheets, process notes, team roles, notification rules',
-                output: 'Admin screens, permissions, reminders, search, reporting'
+                title: 'Zarex Vision Ops',
+                description: 'A visual AI operations platform for OCR, auto-annotation, human review, and model validation loops.',
+                input: 'Manufacturing inspection, document OCR, image annotation, pre-release model validation',
+                output: 'Annotation workbench, OCR validation, review publishing, report exports'
             },
             assistant: {
-                title: 'AI Assistants and Knowledge Q&A',
-                description: 'Connect documents, product materials, FAQs, or business rules to AI assistants for support, sales, operations, or internal use.',
-                input: 'Documents, FAQs, product materials, common questions',
-                output: 'Q&A assistant, knowledge search, workflow entry points'
+                title: 'ScreenLens',
+                description: 'A screen understanding engine that converts screenshots into structured UI state for RPA and GUI agents.',
+                input: 'Desktop automation, RPA workflows, remote operations, GUI agents',
+                output: 'Screen analysis API, target lookup, wait conditions, sample evaluation'
             },
             dashboard: {
-                title: 'Dashboards and Business Insights',
-                description: 'Bring orders, customers, sales, and operations data into dashboards so key numbers are easier to understand.',
-                input: 'Spreadsheets, order records, customer data, operation reports',
-                output: 'Dashboards, filters, exports, regular reports'
+                title: 'Vox / VoiceBar',
+                description: 'A privacy-first local voice input tool for long-form dictation, technical speech, and multilingual writing workflows.',
+                input: 'Personal productivity, developer dictation, support notes, meeting summaries',
+                output: 'macOS voice input, hotword preservation, local ASR, text correction'
             }
         },
         contact: {
-            heading: 'Tell Us What You Want To Build',
-            intro: 'You do not need a complete brief. Leave one way to reach you, and we will help decide the next step.',
+            heading: 'Book a Product Matrix Call',
+            intro: 'If you are evaluating knowledge agents, visual AI operations, or want to start from a demonstrable AI pilot, leave a contact method.',
             emailLabel: 'Email Us Directly',
             copyEmail: 'Copy email',
             copySuccess: 'Email copied.',
             copyFallback: 'Copy failed. Please copy contact@zarex.studio manually.',
             responseLabel: 'What Happens Next',
-            responseValue: 'We will first clarify the goal, budget range, and smallest launchable version.',
-            formTitle: 'Leave a Contact Method',
-            formIntro: 'A contact method is enough. Add one sentence about the problem if convenient.',
+            responseValue: 'We will first clarify your target scenario, current materials, deployment boundary, and smallest demoable version.',
+            formTitle: 'Leave a Starting Point',
+            formIntro: 'A contact method is enough. Add one sentence about the AI scenario you want to validate if convenient.',
             nameLabel: 'How should we address you? (optional)',
             namePlaceholder: 'Example: Alex / Ray',
             contactInputLabel: 'Contact method',
             contactPlaceholder: 'Email, WeChat, or phone',
-            messageLabel: 'Problem to solve (optional)',
-            messagePlaceholder: 'Example: build a website, move spreadsheets online, create an AI assistant...',
+            messageLabel: 'Scenario to validate (optional)',
+            messagePlaceholder: 'Example: support knowledge Q&A, OCR model validation, auto-annotation, screen automation, voice input...',
             formHint: 'This is a static site: clicking will open your email client with a prefilled message to us.',
             submit: 'Create Email',
             validationMissing: 'Please leave at least one contact method so we can reach you.',
             openingClient: 'Opening your email client...',
             generatingEmail: 'Email draft created. Please confirm sending in your email client.',
             mailtoFallback: 'If your email client did not open, copy contact@zarex.studio and email us directly.',
-            mailSubject: 'Website inquiry',
+            mailSubject: 'ZAREX product matrix inquiry',
             mailBodyName: 'Name',
             mailBodyContact: 'Contact method',
-            mailBodyMessage: 'Problem to solve',
+            mailBodyMessage: 'Scenario to validate',
             mailBodyEmpty: '(not provided)'
         },
         footer: {
-            tagline: 'Building usable systems from the point of origin',
+            tagline: 'Building operable AI products from real scenarios',
             copyright: '© 2026 ZAREX Studio. All rights reserved.'
         }
     }
